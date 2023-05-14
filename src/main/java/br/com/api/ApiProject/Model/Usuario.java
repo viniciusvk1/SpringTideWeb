@@ -11,17 +11,28 @@ public class Usuario {
     @Column(name = "id")
     private Integer id;
 
-    @Column(name = "nome", length = 200, nullable = true)
+    @Column(name = "nome_completo", length = 200, nullable = true)
     private String nome;
+
+//    @Column(name = "username", length = 100, nullable = true)
+//    private String username;
 
     @Column(name = "email", length = 50, nullable = true)
     private String email;
 
-    @Column(name = "senha",columnDefinition = "TEXT", nullable = true)
+    @Column(name = "senha", columnDefinition = "TEXT", nullable = true)
     private String senha;
 
     @Column(name = "telefone", length = 15, nullable = true)
     private String telefone;
+
+//    public String getUsername() {
+//        return username;
+//    }
+//
+//    public void setUsername(String username) {
+//        this.username = username;
+//    }
 
     public Integer getId() {
         return id;
