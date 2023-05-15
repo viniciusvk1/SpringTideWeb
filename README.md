@@ -8,7 +8,6 @@ SpringTideWeb is a web application project developed using the Spring Boot frame
 - CSS
 - JavaScript
 - Spring Boot
-- Thymeleaf
 - Hibernate
 - MySQL
 
